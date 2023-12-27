@@ -9,7 +9,7 @@ with st.sidebar:
     with st.expander(label="llElevenLabs", expanded=False):
         st.caption(
             "The basic API has a limited number of characters. To increase this limit, you can get a free API key from [llElevenLabs](https://beta.elevenlabs.io/subscription)")
-        API_KEY = st.text_input(label="API KEY")
+        API_KEY = "2d15b32c2cfbdf35e0a67c7eaacbeb54"
 
     st.title("Text to Voice")
     english = st.radio(
